@@ -39,4 +39,3 @@ async function run () {
   await writeTemplate('template-compact-no-remote.md', 'compact', releasesNoRemote)
 }
 
-run().catch(e => console.error(e))afca788910556f8c415fd3d8ce021db8e78ac5e0//http:www.OMG.COM/
