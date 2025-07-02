@@ -1,0 +1,749 @@
+Django REST framework
+Signature List
+
+GET 
+json
+api
+OPTIONS
+Filters
+Signature List
+«
+1
+2
+3
+…
+11310
+»
+GET /api/v1/signatures/
+HTTP 200 OK
+Allow: GET, POST, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "count": 1130948,
+    "next": "http://www.4byte.directory/api/v1/signatures/?page=2",
+    "previous": null,
+    "results": [
+        {
+            "id": 1163930,
+            "created_at": "2025-07-02T13:33:25.017164Z",
+            "text_signature": "InvalidK()",
+            "hex_signature": "0xbd8bc364",
+            "bytes_signature": "½Ãd"
+        },
+        {
+            "id": 1163929,
+            "created_at": "2025-07-02T13:33:13.201243Z",
+            "text_signature": "InsufficientInputAmount()",
+            "hex_signature": "0x098fb561",
+            "bytes_signature": "\tµa"
+        },
+        {
+            "id": 1163928,
+            "created_at": "2025-07-02T13:32:57.640144Z",
+            "text_signature": "InvalidTo()",
+            "hex_signature": "0x290fa188",
+            "bytes_signature": ")\u000f¡"
+        },
+        {
+            "id": 1163927,
+            "created_at": "2025-07-02T13:31:39.859923Z",
+            "text_signature": "OnlyFeeSetter()",
+            "hex_signature": "0x7155bb19",
+            "bytes_signature": "qU»\u0019"
+        },
+        {
+            "id": 1163926,
+            "created_at": "2025-07-02T13:31:18.208643Z",
+            "text_signature": "IdenticalAddresses()",
+            "hex_signature": "0xbd969eb0",
+            "bytes_signature": "½°"
+        },
+        {
+            "id": 1163925,
+            "created_at": "2025-07-02T12:35:09.168785Z",
+            "text_signature": "InvalidPool(address,address)",
+            "hex_signature": "0x92f677f8",
+            "bytes_signature": "öwø"
+        },
+        {
+            "id": 1163924,
+            "created_at": "2025-07-02T11:16:24.421916Z",
+            "text_signature": "upgradeHero(uint256[],address)",
+            "hex_signature": "0x73afa6d1",
+            "bytes_signature": "s¯¦Ñ"
+        },
+        {
+            "id": 1163923,
+            "created_at": "2025-07-02T11:16:24.418965Z",
+            "text_signature": "ruleInfoSpecial(uint256)",
+            "hex_signature": "0x0e881849",
+            "bytes_signature": "\u000e\u0018I"
+        },
+        {
+            "id": 1163922,
+            "created_at": "2025-07-02T11:16:24.416826Z",
+            "text_signature": "ruleInfo(uint256)",
+            "hex_signature": "0x98bf4d83",
+            "bytes_signature": "¿M"
+        },
+        {
+            "id": 1163921,
+            "created_at": "2025-07-02T11:16:24.406836Z",
+            "text_signature": "addRuleSpecial(uint256[],uint256[])",
+            "hex_signature": "0xd2ad8b73",
+            "bytes_signature": "Ò­s"
+        },
+        {
+            "id": 1163920,
+            "created_at": "2025-07-02T11:16:24.404533Z",
+            "text_signature": "addRuleLimitBreak(uint256[],uint256[])",
+            "hex_signature": "0x6df9487c",
+            "bytes_signature": "mùH|"
+        },
+        {
+            "id": 1163919,
+            "created_at": "2025-07-02T11:16:24.387735Z",
+            "text_signature": "addRule(uint256[],uint256[],uint256[])",
+            "hex_signature": "0x164cf4ab",
+            "bytes_signature": "\u0016Lô«"
+        },
+        {
+            "id": 1163918,
+            "created_at": "2025-07-02T11:16:24.330980Z",
+            "text_signature": "Ascend(uint256[],address)",
+            "hex_signature": "0xa201379b",
+            "bytes_signature": "¢\u00017"
+        },
+        {
+            "id": 1163917,
+            "created_at": "2025-07-02T11:13:32.775375Z",
+            "text_signature": "batchMintHewerBox(address[])",
+            "hex_signature": "0x0e98e82c",
+            "bytes_signature": "\u000eè,"
+        },
+        {
+            "id": 1163916,
+            "created_at": "2025-07-02T11:13:32.764138Z",
+            "text_signature": "MAX_NUM_OF_BOXES()",
+            "hex_signature": "0xea332b61",
+            "bytes_signature": "ê3+a"
+        },
+        {
+            "id": 1163915,
+            "created_at": "2025-07-02T11:12:15.740435Z",
+            "text_signature": "withdrawlAddress()",
+            "hex_signature": "0xffa9cd3b",
+            "bytes_signature": "ÿ©Í;"
+        },
+        {
+            "id": 1163914,
+            "created_at": "2025-07-02T11:12:15.726601Z",
+            "text_signature": "teamMintSupply()",
+            "hex_signature": "0xc3214581",
+            "bytes_signature": "Ã!E"
+        },
+        {
+            "id": 1163913,
+            "created_at": "2025-07-02T11:12:15.710622Z",
+            "text_signature": "provenanceHashFrozen()",
+            "hex_signature": "0x9a2a9c3d",
+            "bytes_signature": "*="
+        },
+        {
+            "id": 1163912,
+            "created_at": "2025-07-02T11:12:15.686562Z",
+            "text_signature": "airdropCryptid(uint256,address)",
+            "hex_signature": "0xae7dd0a8",
+            "bytes_signature": "®}Ð¨"
+        },
+        {
+            "id": 1163911,
+            "created_at": "2025-07-02T11:11:21.678178Z",
+            "text_signature": "summonId(uint256)",
+            "hex_signature": "0x95802533",
+            "bytes_signature": "%3"
+        },
+        {
+            "id": 1163910,
+            "created_at": "2025-07-02T11:11:21.674144Z",
+            "text_signature": "summon(address[],uint256[],uint256[],string[],uint256)",
+            "hex_signature": "0x7a96c845",
+            "bytes_signature": "zÈE"
+        },
+        {
+            "id": 1163909,
+            "created_at": "2025-07-02T11:11:21.670164Z",
+            "text_signature": "requestSummons(uint256[])",
+            "hex_signature": "0xc57d09f3",
+            "bytes_signature": "Å}\tó"
+        },
+        {
+            "id": 1163908,
+            "created_at": "2025-07-02T11:11:21.651239Z",
+            "text_signature": "openPackage(address[],uint256[],uint256[],uint256)",
+            "hex_signature": "0xc1ecd1d9",
+            "bytes_signature": "ÁìÑÙ"
+        },
+        {
+            "id": 1163907,
+            "created_at": "2025-07-02T11:11:21.638697Z",
+            "text_signature": "editHeroes(uint256,string,string,string,string)",
+            "hex_signature": "0x51fad607",
+            "bytes_signature": "QúÖ\u0007"
+        },
+        {
+            "id": 1163906,
+            "created_at": "2025-07-02T11:11:21.627752Z",
+            "text_signature": "addHeroes(uint256[],string[],string[],string[],string[])",
+            "hex_signature": "0x174478c0",
+            "bytes_signature": "\u0017DxÀ"
+        },
+        {
+            "id": 1163905,
+            "created_at": "2025-07-02T11:09:55.416234Z",
+            "text_signature": "multisendAirdrop(address[],uint256)",
+            "hex_signature": "0xa829933c",
+            "bytes_signature": "¨)<"
+        },
+        {
+            "id": 1163904,
+            "created_at": "2025-07-02T11:09:55.400162Z",
+            "text_signature": "airdropV1Address()",
+            "hex_signature": "0xb2228b19",
+            "bytes_signature": "²\"\u0019"
+        },
+        {
+            "id": 1163903,
+            "created_at": "2025-07-02T11:09:11.286299Z",
+            "text_signature": "showIsEarlySell(address)",
+            "hex_signature": "0x943b3b9b",
+            "bytes_signature": ";;"
+        },
+        {
+            "id": 1163902,
+            "created_at": "2025-07-02T11:09:11.283708Z",
+            "text_signature": "setWhaleLiquidityFee(uint256)",
+            "hex_signature": "0x1149ef5a",
+            "bytes_signature": "\u0011IïZ"
+        },
+        {
+            "id": 1163901,
+            "created_at": "2025-07-02T11:09:11.279271Z",
+            "text_signature": "setWhaleCharityFee(uint256)",
+            "hex_signature": "0x81dedeee",
+            "bytes_signature": "ÞÞî"
+        },
+        {
+            "id": 1163900,
+            "created_at": "2025-07-02T11:09:11.263818Z",
+            "text_signature": "setFeeExempts(address[])",
+            "hex_signature": "0x602e2e40",
+            "bytes_signature": "`..@"
+        },
+        {
+            "id": 1163899,
+            "created_at": "2025-07-02T11:09:11.260331Z",
+            "text_signature": "removeFeeExempt(address)",
+            "hex_signature": "0x0883b8b2",
+            "bytes_signature": "\b¸²"
+        },
+        {
+            "id": 1163898,
+            "created_at": "2025-07-02T11:09:11.256340Z",
+            "text_signature": "maxWallets(uint256)",
+            "hex_signature": "0x68c3a5a3",
+            "bytes_signature": "hÃ¥£"
+        },
+        {
+            "id": 1163897,
+            "created_at": "2025-07-02T11:09:11.254144Z",
+            "text_signature": "maxBurns(address)",
+            "hex_signature": "0x3281bc5b",
+            "bytes_signature": "2¼["
+        },
+        {
+            "id": 1163896,
+            "created_at": "2025-07-02T11:09:11.251980Z",
+            "text_signature": "lastTimestamps(address)",
+            "hex_signature": "0xb53c69bf",
+            "bytes_signature": "µ<i¿"
+        },
+        {
+            "id": 1163895,
+            "created_at": "2025-07-02T11:09:11.249562Z",
+            "text_signature": "isWhaleFee()",
+            "hex_signature": "0x8637c306",
+            "bytes_signature": "7Ã\u0006"
+        },
+        {
+            "id": 1163894,
+            "created_at": "2025-07-02T11:09:11.246518Z",
+            "text_signature": "isEarlySellFee()",
+            "hex_signature": "0xa8eab99b",
+            "bytes_signature": "¨ê¹"
+        },
+        {
+            "id": 1163893,
+            "created_at": "2025-07-02T11:09:11.240819Z",
+            "text_signature": "enableWhaleFee(bool)",
+            "hex_signature": "0x3427ab76",
+            "bytes_signature": "4'«v"
+        },
+        {
+            "id": 1163892,
+            "created_at": "2025-07-02T11:09:11.238296Z",
+            "text_signature": "emergencyTxsOpt(address,address,uint256)",
+            "hex_signature": "0x7628fa42",
+            "bytes_signature": "v(úB"
+        },
+        {
+            "id": 1163891,
+            "created_at": "2025-07-02T11:09:11.236319Z",
+            "text_signature": "emergencyTransferOpt(address,address,uint256)",
+            "hex_signature": "0xf3f9f843",
+            "bytes_signature": "óùøC"
+        },
+        {
+            "id": 1163890,
+            "created_at": "2025-07-02T11:09:11.234285Z",
+            "text_signature": "emergencyPauseOp(bool)",
+            "hex_signature": "0xf29ca2a7",
+            "bytes_signature": "ò¢§"
+        },
+        {
+            "id": 1163889,
+            "created_at": "2025-07-02T11:09:11.231916Z",
+            "text_signature": "emergencyBurnTxs(address,uint256)",
+            "hex_signature": "0x9cbb02ca",
+            "bytes_signature": "»\u0002Ê"
+        },
+        {
+            "id": 1163888,
+            "created_at": "2025-07-02T11:09:11.229981Z",
+            "text_signature": "emergencyBurnTransfer(address,uint256)",
+            "hex_signature": "0x8fa93f36",
+            "bytes_signature": "©?6"
+        },
+        {
+            "id": 1163887,
+            "created_at": "2025-07-02T11:09:11.227984Z",
+            "text_signature": "emergencyBurnFromDevTxs(uint256)",
+            "hex_signature": "0x1eba35f7",
+            "bytes_signature": "\u001eº5÷"
+        },
+        {
+            "id": 1163886,
+            "created_at": "2025-07-02T11:09:11.226028Z",
+            "text_signature": "emergencyBurnFromDevTransferStaking(uint256)",
+            "hex_signature": "0x6d04330e",
+            "bytes_signature": "m\u00043\u000e"
+        },
+        {
+            "id": 1163885,
+            "created_at": "2025-07-02T11:09:11.224066Z",
+            "text_signature": "emergencyBurnFromDevTransfer(uint256)",
+            "hex_signature": "0x7048bb8a",
+            "bytes_signature": "pH»"
+        },
+        {
+            "id": 1163884,
+            "created_at": "2025-07-02T11:09:11.221858Z",
+            "text_signature": "emergencyApproveOpt(address,address)",
+            "hex_signature": "0x235c2a17",
+            "bytes_signature": "#\\*\u0017"
+        },
+        {
+            "id": 1163883,
+            "created_at": "2025-07-02T11:09:11.217568Z",
+            "text_signature": "checkLastBlocks(address)",
+            "hex_signature": "0xda91b844",
+            "bytes_signature": "Ú¸D"
+        },
+        {
+            "id": 1163882,
+            "created_at": "2025-07-02T11:09:11.206884Z",
+            "text_signature": "_whaleCharityFee()",
+            "hex_signature": "0xb6bae8f4",
+            "bytes_signature": "¶ºèô"
+        },
+        {
+            "id": 1163881,
+            "created_at": "2025-07-02T11:07:41.127447Z",
+            "text_signature": "winnerStatus(address)",
+            "hex_signature": "0x9790e09a",
+            "bytes_signature": "à"
+        },
+        {
+            "id": 1163880,
+            "created_at": "2025-07-02T11:07:41.125171Z",
+            "text_signature": "unboxingAllowed()",
+            "hex_signature": "0x7b918a87",
+            "bytes_signature": "{"
+        },
+        {
+            "id": 1163879,
+            "created_at": "2025-07-02T11:07:41.121539Z",
+            "text_signature": "totalParticipents()",
+            "hex_signature": "0xd8911d3c",
+            "bytes_signature": "Ø\u001d<"
+        },
+        {
+            "id": 1163878,
+            "created_at": "2025-07-02T11:07:41.112569Z",
+            "text_signature": "setunboxingAllowedStatus()",
+            "hex_signature": "0x293d1018",
+            "bytes_signature": ")=\u0010\u0018"
+        },
+        {
+            "id": 1163877,
+            "created_at": "2025-07-02T11:07:41.090286Z",
+            "text_signature": "setbeforeRevealURI(string)",
+            "hex_signature": "0xf83c5e1d",
+            "bytes_signature": "ø<^\u001d"
+        },
+        {
+            "id": 1163876,
+            "created_at": "2025-07-02T11:07:41.082054Z",
+            "text_signature": "setbatchSizeForParticpents(uint256)",
+            "hex_signature": "0x855ee560",
+            "bytes_signature": "^å`"
+        },
+        {
+            "id": 1163875,
+            "created_at": "2025-07-02T11:07:41.078902Z",
+            "text_signature": "setafterRevealURI(string)",
+            "hex_signature": "0xed1da359",
+            "bytes_signature": "í\u001d£Y"
+        },
+        {
+            "id": 1163874,
+            "created_at": "2025-07-02T11:07:41.074385Z",
+            "text_signature": "selectionComplete()",
+            "hex_signature": "0x2eee83a6",
+            "bytes_signature": ".î¦"
+        },
+        {
+            "id": 1163873,
+            "created_at": "2025-07-02T11:07:41.071510Z",
+            "text_signature": "selectedWinnersCount()",
+            "hex_signature": "0x446b20de",
+            "bytes_signature": "Dk Þ"
+        },
+        {
+            "id": 1163872,
+            "created_at": "2025-07-02T11:07:41.062740Z",
+            "text_signature": "revealAllBoxes()",
+            "hex_signature": "0xee0cbe73",
+            "bytes_signature": "î\f¾s"
+        },
+        {
+            "id": 1163871,
+            "created_at": "2025-07-02T11:07:41.052433Z",
+            "text_signature": "losers(uint256)",
+            "hex_signature": "0x84bb0d08",
+            "bytes_signature": "»\r\b"
+        },
+        {
+            "id": 1163870,
+            "created_at": "2025-07-02T11:07:41.036715Z",
+            "text_signature": "lastAirdroppedIndex()",
+            "hex_signature": "0x1361ef91",
+            "bytes_signature": "\u0013aï"
+        },
+        {
+            "id": 1163869,
+            "created_at": "2025-07-02T11:07:41.032628Z",
+            "text_signature": "isWinnerAddress(address)",
+            "hex_signature": "0x44d1ce91",
+            "bytes_signature": "DÑÎ"
+        },
+        {
+            "id": 1163868,
+            "created_at": "2025-07-02T11:07:41.028767Z",
+            "text_signature": "isExcluded(uint256)",
+            "hex_signature": "0x0a272a0a",
+            "bytes_signature": "\n'*\n"
+        },
+        {
+            "id": 1163867,
+            "created_at": "2025-07-02T11:07:41.023181Z",
+            "text_signature": "getTotalParticepentsAddresss()",
+            "hex_signature": "0x4c441f94",
+            "bytes_signature": "LD\u001f"
+        },
+        {
+            "id": 1163866,
+            "created_at": "2025-07-02T11:07:41.019243Z",
+            "text_signature": "enterLottery(address[])",
+            "hex_signature": "0xc129800d",
+            "bytes_signature": "Á)\r"
+        },
+        {
+            "id": 1163865,
+            "created_at": "2025-07-02T11:07:41.015354Z",
+            "text_signature": "batchSizeForParticpents()",
+            "hex_signature": "0x490f38d4",
+            "bytes_signature": "I\u000f8Ô"
+        },
+        {
+            "id": 1163864,
+            "created_at": "2025-07-02T11:07:41.012038Z",
+            "text_signature": "batchAirdropRewards(address[],uint8[])",
+            "hex_signature": "0xbe1e8668",
+            "bytes_signature": "¾\u001eh"
+        },
+        {
+            "id": 1163863,
+            "created_at": "2025-07-02T11:07:41.007391Z",
+            "text_signature": "airdropForLuckyDrawWinners(uint256)",
+            "hex_signature": "0x013131f3",
+            "bytes_signature": "\u000111ó"
+        },
+        {
+            "id": 1163862,
+            "created_at": "2025-07-02T11:07:40.994430Z",
+            "text_signature": "WINNER_COUNT()",
+            "hex_signature": "0x9934bba5",
+            "bytes_signature": "4»¥"
+        },
+        {
+            "id": 1163861,
+            "created_at": "2025-07-02T11:07:07.061531Z",
+            "text_signature": "execTransaction(uint256[],uint256,address,address,address[],uint256[],address,address[],uint256[],uint256,uint256,bytes)",
+            "hex_signature": "0x91d996e1",
+            "bytes_signature": "Ùá"
+        },
+        {
+            "id": 1163860,
+            "created_at": "2025-07-02T11:07:07.057689Z",
+            "text_signature": "editSigner(address)",
+            "hex_signature": "0xd0413b9f",
+            "bytes_signature": "ÐA;"
+        },
+        {
+            "id": 1163859,
+            "created_at": "2025-07-02T11:07:07.049643Z",
+            "text_signature": "editBaseUri(string)",
+            "hex_signature": "0xece4132e",
+            "bytes_signature": "ìä\u0013."
+        },
+        {
+            "id": 1163858,
+            "created_at": "2025-07-02T11:06:35.101632Z",
+            "text_signature": "setOnlyOwnerTransfer(bool)",
+            "hex_signature": "0xd931d6fe",
+            "bytes_signature": "Ù1Öþ"
+        },
+        {
+            "id": 1163857,
+            "created_at": "2025-07-02T11:06:35.093436Z",
+            "text_signature": "mintMultiple(address[],uint256,uint256[],bytes)",
+            "hex_signature": "0xfb8aa99b",
+            "bytes_signature": "û©"
+        },
+        {
+            "id": 1163856,
+            "created_at": "2025-07-02T10:57:13.170320Z",
+            "text_signature": "updateUri(string,uint256)",
+            "hex_signature": "0x5ed12364",
+            "bytes_signature": "^Ñ#d"
+        },
+        {
+            "id": 1163855,
+            "created_at": "2025-07-02T10:57:13.160998Z",
+            "text_signature": "mintDropOfTheDay(address,uint256)",
+            "hex_signature": "0xf35261db",
+            "bytes_signature": "óRaÛ"
+        },
+        {
+            "id": 1163854,
+            "created_at": "2025-07-02T10:57:13.156844Z",
+            "text_signature": "createDrop(uint256,string)",
+            "hex_signature": "0xc6eb296c",
+            "bytes_signature": "Æë)l"
+        },
+        {
+            "id": 1163853,
+            "created_at": "2025-07-02T10:57:13.152412Z",
+            "text_signature": "batchMintDropOfTheDay(address[],uint256)",
+            "hex_signature": "0x653d38a8",
+            "bytes_signature": "e=8¨"
+        },
+        {
+            "id": 1163852,
+            "created_at": "2025-07-02T10:57:13.142106Z",
+            "text_signature": "adventDrops(uint256)",
+            "hex_signature": "0x785c518a",
+            "bytes_signature": "x\\Q"
+        },
+        {
+            "id": 1163851,
+            "created_at": "2025-07-02T10:56:26.988271Z",
+            "text_signature": "viewStakeInfoOf(address)",
+            "hex_signature": "0xe71e73d8",
+            "bytes_signature": "ç\u001esØ"
+        },
+        {
+            "id": 1163850,
+            "created_at": "2025-07-02T10:56:26.983829Z",
+            "text_signature": "totalStakeRewardMinted()",
+            "hex_signature": "0x0ec232dd",
+            "bytes_signature": "\u000eÂ2Ý"
+        },
+        {
+            "id": 1163849,
+            "created_at": "2025-07-02T10:56:26.981188Z",
+            "text_signature": "stakeRewardPeriod()",
+            "hex_signature": "0x5b4df309",
+            "bytes_signature": "[Mó\t"
+        },
+        {
+            "id": 1163848,
+            "created_at": "2025-07-02T10:56:26.979265Z",
+            "text_signature": "stakeBonusPeriod()",
+            "hex_signature": "0xdb6e1c19",
+            "bytes_signature": "Ûn\u001c\u0019"
+        },
+        {
+            "id": 1163847,
+            "created_at": "2025-07-02T10:56:26.975668Z",
+            "text_signature": "setMinStakeValue(uint256)",
+            "hex_signature": "0x4d985944",
+            "bytes_signature": "MYD"
+        },
+        {
+            "id": 1163846,
+            "created_at": "2025-07-02T10:56:26.971282Z",
+            "text_signature": "restAndDrop(address[],uint256[])",
+            "hex_signature": "0x31e067fd",
+            "bytes_signature": "1àgý"
+        },
+        {
+            "id": 1163845,
+            "created_at": "2025-07-02T10:56:17.093020Z",
+            "text_signature": "mintEvolvedPixelmon(uint256[])",
+            "hex_signature": "0xd70fe896",
+            "bytes_signature": "×\u000fè"
+        },
+        {
+            "id": 1163844,
+            "created_at": "2025-07-02T10:56:17.073064Z",
+            "text_signature": "getEvolvedPixelmonTokenIds(uint256[])",
+            "hex_signature": "0x9aa6bac1",
+            "bytes_signature": "¦ºÁ"
+        },
+        {
+            "id": 1163843,
+            "created_at": "2025-07-02T10:56:17.059677Z",
+            "text_signature": "evolvedPixelmon(uint256)",
+            "hex_signature": "0x9c154d28",
+            "bytes_signature": "\u0015M("
+        },
+        {
+            "id": 1163842,
+            "created_at": "2025-07-02T10:54:04.825478Z",
+            "text_signature": "fill((address,address,uint256,uint256,uint256,(address,uint112),(address,uint112)),address,bytes)",
+            "hex_signature": "0x3d191fa8",
+            "bytes_signature": "=\u0019\u001f¨"
+        },
+        {
+            "id": 1163841,
+            "created_at": "2025-07-02T10:54:04.820356Z",
+            "text_signature": "_tryV3Swap((address,(address,uint112),(address,uint112),(address,address,uint256,uint256,uint256,uint256)),address,bytes)",
+            "hex_signature": "0x83a7fcfb",
+            "bytes_signature": "§üû"
+        },
+        {
+            "id": 1163840,
+            "created_at": "2025-07-02T10:54:04.815498Z",
+            "text_signature": "_trySwap((address,address,uint256,uint256,uint256,(address,uint112),(address,uint112)),address,bytes)",
+            "hex_signature": "0x904cd9f5",
+            "bytes_signature": "LÙõ"
+        },
+        {
+            "id": 1163839,
+            "created_at": "2025-07-02T10:51:42.764025Z",
+            "text_signature": "userStakeNfts(address)",
+            "hex_signature": "0xeb065d7d",
+            "bytes_signature": "ë\u0006]}"
+        },
+        {
+            "id": 1163838,
+            "created_at": "2025-07-02T10:51:42.760523Z",
+            "text_signature": "userLastHarvestTime(address)",
+            "hex_signature": "0x31ff988a",
+            "bytes_signature": "1ÿ"
+        },
+        {
+            "id": 1163837,
+            "created_at": "2025-07-02T10:51:42.757192Z",
+            "text_signature": "unlockSlot()",
+            "hex_signature": "0xfc6c50a6",
+            "bytes_signature": "ülP¦"
+        },
+        {
+            "id": 1163836,
+            "created_at": "2025-07-02T10:51:42.753132Z",
+            "text_signature": "slotprices(uint256)",
+            "hex_signature": "0xedde0d07",
+            "bytes_signature": "íÞ\r\u0007"
+        },
+        {
+            "id": 1163835,
+            "created_at": "2025-07-02T10:51:42.750360Z",
+            "text_signature": "slotPowerMultiplies(uint256)",
+            "hex_signature": "0xaa9c19ad",
+            "bytes_signature": "ª\u0019­"
+        },
+        {
+            "id": 1163834,
+            "created_at": "2025-07-02T10:51:42.747583Z",
+            "text_signature": "setSlotPowerMultiplies(uint256[])",
+            "hex_signature": "0x3d3f9939",
+            "bytes_signature": "=?9"
+        },
+        {
+            "id": 1163833,
+            "created_at": "2025-07-02T10:51:42.744674Z",
+            "text_signature": "setNftHashpowers(uint256[])",
+            "hex_signature": "0xe48b3185",
+            "bytes_signature": "ä1"
+        },
+        {
+            "id": 1163832,
+            "created_at": "2025-07-02T10:51:42.741583Z",
+            "text_signature": "setNblPowerMultiplies(uint256[],uint256[])",
+            "hex_signature": "0xdeeed20d",
+            "bytes_signature": "ÞîÒ\r"
+        },
+        {
+            "id": 1163831,
+            "created_at": "2025-07-02T10:51:42.738746Z",
+            "text_signature": "setInscriptionHashpowers(uint256[],uint256[],uint256[])",
+            "hex_signature": "0x2b560504",
+            "bytes_signature": "+V\u0005\u0004"
+        }
+    ]
+}
+HTML form
+Raw data
+
+Text signature
+POST
+
+Media type:
+
+application/json
+Content:
+{
+    "text_signature": ""
+}
+POST
+×
+Filters
+Field filters
+Submit
+Ordering
+created_at - ascending created_at - descending
